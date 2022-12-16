@@ -64,7 +64,7 @@ window.onload = () => {
 
     function updateLevelInfo() {
       let batteryLevel = `${parseInt(battery.level * 100)}%`
-      charge.style.width = batteryLevel;
+      charge.style.width = `calc(${batteryLevel}% - 1em)`;
       chargeLevel.innerText = batteryLevel;
     }
   });

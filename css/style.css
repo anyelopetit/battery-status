@@ -47,9 +47,10 @@ body {
 }
 
 #charge {
-  position: relative;
-  height: 7.5em;
-  width: 16.25em;
+  position: absolute;
+  height: calc(100% - 1em);
+  width: calc(100% - 1em);
+  left: 0.5em;
   background-color: var(--primary-color);
   justify-self: left;
 }
