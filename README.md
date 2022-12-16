@@ -2,4 +2,4 @@
 
 ## Check the battery status of your device
 
-![screenshot](img/img.png)
+![screenshot](img/captura.png)
