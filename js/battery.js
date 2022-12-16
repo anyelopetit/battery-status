@@ -13,22 +13,6 @@ window.onload = () => {
   }
 
   navigator.getBattery().then((battery) => {
-    // chargeLevel.textContent = Math.round(battery.level * 100);
-    // charge.textContent = battery.charging ? 'charging' : 'not charging';
-    // chargingTimeRef.textContent = battery.chargingTime;
-
-    // battery.addEventListener('chargingchange', () => {
-    //   charge.textContent = battery.charging ? 'charging' : 'not charging';
-    // });
-
-    // battery.addEventListener('levelchange', () => {
-    //   chargeLevel.textContent = Math.round(battery.level * 100);
-    // });
-
-    // battery.addEventListener('chargingtimechange', () => {
-    //   chargingTimeRef.textContent = battery.chargingTime;
-    // });
-
     function updateAllBatteryInfo() {
       // updateChargeInfo();
       updateLevelInfo();
